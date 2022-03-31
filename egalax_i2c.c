@@ -1017,6 +1017,7 @@ static const struct of_device_id egalax_i2c_dt_ids[] = {
 #endif
 
 MODULE_DEVICE_TABLE(i2c, egalax_i2c_idtable);
+MODULE_DEVICE_TABLE(of, egalax_i2c_dt_ids);
 
 static struct i2c_driver egalax_i2c_driver = {
 	.driver = {
